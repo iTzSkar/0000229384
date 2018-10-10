@@ -188,4 +188,4 @@ client.on('ready', () => {
   client.user.setGame(`~help || ~inv `,'https://www.twitch.tv/v5bz');
 });
 
-client.login(process.env.TOKEN);
+client.login(process.env.BOT_TOKEN);
